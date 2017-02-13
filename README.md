@@ -21,13 +21,13 @@ Once that's created, you need to create a new Heroku app using this buildpack
 like this:
 
 ```console
-$ heroku create --buildpack https://github.com/conda/conda-buildpack.git
+$ heroku create --buildpack https://github.com/kreuks/conda-buildpack.git
 ```
 
 You can also add it to upcoming builds of an existing application:
 
 ```console
-$ heroku config:add BUILDPACK_URL=https://github.com/conda/conda-buildpack.git
+$ heroku config:add BUILDPACK_URL=https://github.com/kreuks/conda-buildpack.git
 ```
 
 You can test that this is running conda managed Python like this:

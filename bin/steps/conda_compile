@@ -21,7 +21,7 @@ if [ -f environment.yml ]; then
     # conda env remove --yes --quiet --name heroku-env
     # conda env create --name=heroku-env --file environment.yml
     conda env create -f environment.yml
-    source activate liven
+    # source activate liven
 fi
 
 # Clean up the installation environment .
