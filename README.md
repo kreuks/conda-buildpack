@@ -46,7 +46,7 @@ Please check out: http://continuum.io/thanks and https://binstar.org
 
 ## Fair Warning
 
-Heroku limits the final application footprint (slug) size to 300MB. Start small.
+Heroku limits the final application footprint (slug) size to 300MB. Start small. You can put `nomkl` in your `environment.yml` or your `requirements` file to avoid limit.
 
 [Conda]: http://conda.io
 [environment spec]: https://github.com/conda/conda-env#environmentyml
